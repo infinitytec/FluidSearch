@@ -1,0 +1,35 @@
+
+#searchbox {
+	font-size: 0;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	top: 50%;
+	display: block;
+}
+form{
+	display: inline;
+}
+input, button#dropdown {
+	box-sizing: border-box;
+	height: 3em;
+	margin: 0;
+	padding: 0.5em;
+	vertical-align: middle;
+	font-size: 12pt;
+	display: inline;
+}
+input[type=text] {
+	width: 80%;
+}
+input[type=submit], button#dropdown {
+	width: 10%;
+}
+#dropdown-content {
+	display: none;
+}
+#dropdown-content.show {
+	display:contents;
+	font-size: 10pt;
+	position: relative;
+}
